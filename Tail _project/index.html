@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.urbanist-font {
+  font-family: "Urbanist", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+    </style>
+
+    <title>E-comerce Site</title>
+</head>
+<body class="font-mono urbanist-font">
+    <header class="head container mx-auto mt-[20px] space-y-16 pb-[50px] "> <!--replace container by max-w-[1280]-->
+    <nav class="flex  items-center justify-between" >
+        <div class="flex items-center justify-center">
+            <p class="text-3xl font-bold"><span class="text-red-400">e</span>Com</p>
+            <p class="h-[20px] w-[20px]"><img src="Red-arrow-icon-illustration-on-transparent-background-PNG.png" ></p>
+        </div>
+
+        <div>
+            <ul class="hidden lg:block lg:inline-flex flex items-center gap-5 font-bold text-gray-700  ">
+                <li class="text-red-400">Home</li>
+                <li>Shop</li>
+                <li>Add_Products</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+        <div class="lg:hidden ">
+            <p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              </p>
+        </div>
+
+        <div class="flex hidden lg:block">
+            <ul class="flex items-center gap-3 ">
+                <li class="h-[20px] w-[20px]"><img  src="Facebook.jpg"></li>
+                <li class="h-[20px] w-[20px]"><img src="Twitter.jpg"></li>
+                <li class="h-[20px] w-[20px]"><img src="insta.png"></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- banner -->
+ <section class=" relative rounded-3xl h-[550px] bg-red-300 bg-[url('./banner2.jpg')] bg-no-repeat bg-cover w-full flex items-center justify-center">    <!--xl:h-[650px] -->
+    <div class="absolute rounded-3xl bg-gradient-to-t from-black opacity-7c:\Users\MG\OneDrive\Desktop\canon.png0"></div> <!--related with section-->
+    <div class="text-center space-y-5">
+    <div class=" tittle-desc  space-y-5 text-center">
+        <h1 class="text-white text-4xl ">Dont Miss Out on These Unbeatable <br> Black Friday Deals</h1>
+        <p class="text-slate-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Expedita odio porr excepturi harum!</p>
+    </div>
+
+    <div class="explore-btns font-bold">
+      <button class="bg-red-600 rounded-md py-3 px-5 text-white">Explore Deal</button>
+      <button class="rounded-md py-3 px-5 text-white border borders-white">Buy Now</button>
+    </div>
+</div>
+ </section>
+ <!-- banner end -->
+  <section class="brand justify-between flex-wrap">
+    <div class="flex justify-between filter grayscale">
+        <img src="hero.png "class="h-[50px] w-[80px]" alt="">
+        <img src="unicef.png" class="h-[50px] w-[80px]">
+        <img src="supreme.png" class="h-[50px] w-[80px]">
+        <img src="suzuki.png" class="h-[50px] w-[80px]" alt="">
+        <img src="canon.png" class="h-[50px] w-[80px]" alt="">
+    </div>
+  </section>
+</header>
+   <!-- main part start -->
+<main class="container mx-auto mt-3 md:mt-[30px] lg:mt-[50px] space-y-16 pb-[50px]">
+    <section class="products-section space-y-8">
+        <div class="text-center flex flex-col justify-center items-center space-y-5 pb-[50px]">
+            <h1 class="font-bold text-4xl">Exclusive Products</h1>
+            <p class="lg:w-[40%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, cupiditate?ehfiweuiewdeiwdewid wejhdujehdue</p>
+        </div>
+        <div class="grid grid-rows-2 grid-cols-3 gap-4">
+        <div class="products h-[550px] w-[411px] rounded-3xl bg-slate-300">
+            <div class="p-5">
+               <div class="h-[200px] bg-white rounded-3xl"><img src="laptop.jpeg" alt=""></div> 
+            </div>
+            <div class="tittle-desc gap-[10px] px-5">
+                <h1 class="font-bold text-xl">Exclusive Products</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, cupiditate?ehfiweuiewdeiwdewid wejhdujehdue</p>
+            <div class="flex justify-between items-center px-8 py-2">
+                <h1>200taka only</h1>
+                <div class="bg-white px-2 py-2 rounded lg">
+                    <span>+</span>
+                    <span>2</span>
+                    <span>-</span>
+                </div>
+            </div>
+
+            </div>
+        <div class="flex flex-col justify-center items-center gap-3">
+            <button class="bg-white py-2 w-[365px] rounded-lg">Add to Cart</button>
+            <button class="bg-amber-600 py-2 w-[365px] rounded-lg">Buy Now</button>
+        </div>
+
+        </div>
+        <div class="products h-[550px] w-[411px] rounded-3xl bg-slate-300">
+            <div class="p-5">
+               <div class="h-[200px] bg-white rounded-3xl"></div> 
+            </div>
+            <div class="tittle-desc gap-[10px] px-5">
+                <h1 class="font-bold text-xl">Exclusive Products</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, cupiditate?ehfiweuiewdeiwdewid wejhdujehdue</p>
+            <div class="flex justify-between items-center px-8 py-2">
+                <h1>Price:200taka only</h1>
+                <div class="bg-white px-2 py-2 rounded lg">
+                    <span>+</span>
+                    <span>2</span>
+                    <span>-</span>
+                </div>
+            </div>
+
+            </div>
+        <div class="flex flex-col justify-center items-center gap-3 ">
+            <button class="bg-white py-2 w-[365px] rounded-lg">Add to Cart</button>
+            <button class="bg-amber-600 py-2 w-[365px] rounded-lg">Buy Now</button>
+        </div>
+
+        </div>
+        <div class="products h-[550px] w-[411px] rounded-3xl bg-slate-300">
+            <div class="p-5">
+               <div class="h-[200px] bg-white rounded-3xl"></div> 
+            </div>
+            <div class="tittle-desc gap-[10px] px-5">
+                <h1 class="font-bold text-xl">Exclusive Products</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, cupiditate?ehfiweuiewdeiwdewid wejhdujehdue</p>
+            <div class="flex justify-between items-center px-8 py-2">
+                <h1>200taka only</h1>
+                <div class="bg-white px-2 py-2 rounded lg">
+                    <span>+</span>
+                    <span>2</span>
+                    <span>-</span>
+                </div>
+            </div>
+
+            </div>
+        <div class="flex flex-col justify-center items-center gap-3 ">
+            <button class="bg-white py-2 w-[365px] rounded-lg">Add to Cart</button>
+            <button class="bg-amber-600 py-2 w-[365px] rounded-lg">Buy Now</button>
+        </div>
+
+        </div>
+        <div class="products h-[550px] w-[411px] rounded-3xl bg-slate-300">
+            <div class="p-5">
+               <div class="h-[200px] bg-white rounded-3xl"></div> 
+            </div>
+            <div class="tittle-desc gap-[10px] px-5">
+                <h1 class="font-bold text-xl">Exclusive Products</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, cupiditate?ehfiweuiewdeiwdewid wejhdujehdue</p>
+            <div class="flex justify-between items-center px-8 py-2">
+                <h1>200taka only</h1>
+                <div class="bg-white px-2 py-2 rounded lg">
+                    <span>+</span>
+                    <span>2</span>
+                    <span>-</span>
+                </div>
+            </div>
+
+            </div>
+        <div class="flex flex-col justify-center items-center gap-3 ">
+            <button class="bg-white py-2 w-[365px] rounded-lg">Add to Cart</button>
+            <button class="bg-amber-600 py-2 w-[365px] rounded-lg">Buy Now</button>
+        </div>
+
+        </div>
+        <div class="products h-[550px] w-[411px] rounded-3xl bg-slate-300">
+            <div class="p-5">
+               <div class="h-[200px] bg-white rounded-3xl"></div> 
+            </div>
+            <div class="tittle-desc gap-[10px] px-5">
+                <h1 class="font-bold text-xl">Exclusive Products</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, cupiditate?ehfiweuiewdeiwdewid wejhdujehdue</p>
+            <div class="flex justify-between items-center px-8 py-2">
+                <h1>200taka only</h1>
+                <div class="bg-white px-2 py-2 rounded lg">
+                    <span>+</span>
+                    <span>2</span>
+                    <span>-</span>
+                </div>
+            </div>
+
+            </div>
+        <div class="flex flex-col justify-center items-center gap-3 ">
+            <button class="bg-white py-2 w-[365px] rounded-lg">Add to Cart</button>
+            <button class="bg-amber-600 py-2 w-[365px] rounded-lg">Buy Now</button>
+        </div>
+
+        </div>
+        <div class="products h-[550px] w-[411px] rounded-3xl bg-slate-300">
+            <div class="p-5">
+               <div class="h-[200px] bg-white rounded-3xl"></div> 
+            </div>
+            <div class="tittle-desc gap-[10px] px-5">
+                <h1 class="font-bold text-xl">Exclusive Products</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, cupiditate?ehfiweuiewdeiwdewid wejhdujehdue</p>
+            <div class="flex justify-between items-center px-8 py-2">
+                <h1>200taka only</h1>
+                <div class="bg-white px-2 py-2 rounded lg">
+                    <span>+</span>
+                    <span>2</span>
+                    <span>-</span>
+                </div>
+            </div>
+
+            </div>
+        <div class="flex flex-col justify-center items-center gap-3 ">
+            <button class="bg-white py-2 w-[365px] rounded-lg">Add to Cart</button>
+            <button class="bg-amber-600 py-2 w-[365px] rounded-lg">Buy Now</button>
+        </div>
+
+        </div>
+    </div>
+    <div class="all products flex justify-center ">
+        <button class="bg-red-300 py-2 w-[365px] rounded-lg text-white">All products</button>
+    </div>
+    </section>
+    <section class="counter flex flex-col lg:flex-row justify-around">
+       <div class="flex flex-col gap-5">
+        <img src="suzuki.png" class="h-[40px] w-[60px]"alt="">
+        <h1 class="text-3xl font-bold">1500+</h1>
+        <p>products</p>
+       </div>
+       <div class="flex flex-col gap-5">
+        <img src="suzuki.png" class="h-[40px] w-[60px]"alt="">
+        <h1 class="text-3xl font-bold">1500+</h1>
+        <p>products</p>
+       </div>
+       <div class="flex flex-col gap-5">
+        <img src="suzuki.png" class="h-[40px] w-[60px]"alt="">
+        <h1 class="text-3xl font-bold">1500+</h1>
+        <p>products</p>
+       </div>
+       <div class="flex flex-col gap-5">
+        <img src="suzuki.png" class="h-[40px] w-[60px]"alt="">
+        <h1 class="text-3xl font-bold">1500+</h1>
+        <p>products</p>
+       </div>
+    </section>
+    <section class="registration part ">
+        <div class="text-center flex flex-col justify-center items-center space-y-5 pb-[50px]">
+            <h1 class="font-bold text-4xl">Create Account</h1>
+            <p class="lg:w-[40%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, cupiditate?ehfiweuiewdeiwdewid wejhdujehdue</p>
+        </div>
+        <div class=" form-section h-[562px] bg-slate-300 flex flex-col lg:flex-row ">
+          <div class="h-full w-[50%] flex justify-center items-center">
+          <img src="form.jpg" alt="">
+        </div>
+          <div class="h-full w-[50%] bg-white-300 py-8">
+            <form class="space-y-5" >
+                <div class="space-y-2">
+            
+                <label class="block" for="name">Name</label>
+                <div class="flex gap-3">
+                <input class="w-[50%] pl-3 py-3 rounded-lg placeholder:pl-5 border outline-none" id="name" type="text" required placeholder="first_name">
+
+                <input class="w-[50%] pl-3 py-3 rounded-lg placeholder:pl-5 border outline-none" id="name" type="text" required placeholder="first_name">
+                </div>
+            </div>
+
+            <div class="space-y-2">
+                <label class="block" for="email"> Email</label>
+            <input class="w-full py-3 pl-3 rounded-lg placeholder:pl-5 border outline-none" id="email" type="email" placeholder="Email">
+            </div>
+            <div class="space-y-2">
+                <label class="block" for="password"> Password</label>
+            <input class="w-full py-3 pl-3 rounded-lg placeholder:pl-5 border outline-none" id="password" type="password" placeholder="Password">
+            </div>
+            <div class="space-y-2">
+                <label class="block" for="age"> Age</label>
+            <input class="w-full py-3 pl-3 rounded-lg placeholder:pl-5 border outline-none" id="age" type="number" placeholder="Age">
+            </div>
+            <div class="space-y-2 flex gap-4 ">
+                <div class="w-[50%]">
+                    <label class="block text-lg" for="gender"> Gender</label>
+            <select class="w-full py-3 pl-3 rounded-lg placeholder:pl-5 border outline-none" name="gender" id="gender">
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select>
+                </div>
+                <div class="w-[50%]">
+                    <label class="block text-lg" for="gender"> Country</label>
+            <select class="w-full py-3 pl-3 rounded-lg placeholder:pl-5 border outline-none" name="gender" id="gender">
+                <option value="">Bangladesh</option>
+                <option value="">USA</option>
+            </select>
+                </div>
+            </div>
+            </form>
+        </div>
+        </div>
+    </section>
+</main>
+<!-- main part end -->
+<footer class="overflow-hidden space-y-8">
+    <section class="reviews-section space-y-8">
+        <div class="reviews-container container mx-auto flex space-y-8 ">
+            <div class="review-text">
+            <div class=" flex flex-col space-y-5 pb-[50px]">
+                <h1 class="font-bold text-4xl">What our customer says</h1>
+                <p class="lg:w-[40%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, cupiditate?ehfiweuiewdeiwdewid wejhdujehdue.Assnh fgfgtg fgghfgg thth</p>
+            </div> 
+            </div>
+            <div class="arrows flex gap-4 items-end justify-end w-full">
+                <div class="bg-green-500 rounded-full h-[30px] w-[30px] flex justify-center items-center"><span class="h-[30px] w-[30px] rounded-full"><img src="left icon.png" alt=""></span></div>
+                <div class="bg-red-300 rounded-full  h-[30px] w-[30px] flex justify-center items-center"><span class="h-[30px] w-[30px] rounded-full"><img src="riht icon.png" alt=""></span></div>
+
+            </div>
+        </div>
+        <div class="grid grid-rows-2 grid-cols-3 gap-4">
+        <div class="review-card container mx-auto">
+            <div class="card  w-[400px] bg-gray-300 rounded-xl gap-4">
+                <div class="content p-5 flex gap-3">
+                    <div class="img bg-gray-50 h-[52px] w-[52px] rounded-full"></div>
+                    <div class="info">
+                        <h1>Awlad Hossain</h1>
+                        <p>11.12.23</p>
+                    </div> 
+                    
+                </div>
+                <div class="pl-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, et.</div>
+                <div class="star h-[100px] w-[100px] flex pl-5 gap-3">
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                       
+                </div>
+            </div>
+        </div>
+        <div class="review-card container mx-auto">
+            <div class="card  w-[400px] bg-gray-300 rounded-xl gap-4">
+                <div class="content p-5 flex gap-3">
+                    <div class="img bg-gray-50 h-[52px] w-[52px] rounded-full"></div>
+                    <div class="info">
+                        <h1>Rabbi Hossain</h1>
+                        <p>11.12.23</p>
+                    </div> 
+                    
+                </div>
+                <div class="pl-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, et.</div>
+                <div class="star h-[100px] w-[100px] flex pl-5 gap-3">
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                       
+                </div>
+            </div>
+        </div>
+        <div class="review-card container mx-auto">
+            <div class="card  w-[400px] bg-gray-300 rounded-xl gap-4">
+                <div class="content p-5 flex gap-3">
+                    <div class="img bg-gray-50 h-[52px] w-[52px] rounded-full"></div>
+                    <div class="info">
+                        <h1>Anower Hossain</h1>
+                        <p>11.12.23</p>
+                    </div> 
+                    
+                </div>
+                <div class="pl-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, et.</div>
+                <div class="star h-[100px] w-[100px] flex pl-5 gap-3">
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                       
+                </div>
+            </div>
+        </div>
+        <div class="review-card container mx-auto">
+            <div class="card  w-[400px] bg-gray-300 rounded-xl gap-4">
+                <div class="content p-5 flex gap-3">
+                    <div class="img bg-gray-50 h-[52px] w-[52px] rounded-full"></div>
+                    <div class="info">
+                        <h1>Afifa hossain</h1>
+                        <p>11.12.23</p>
+                    </div> 
+                    
+                </div>
+                <div class="pl-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, et.</div>
+                <div class="star h-[100px] w-[100px] flex pl-5 gap-3">
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                       
+                </div>
+            </div>
+        </div>
+        <div class="review-card container mx-auto">
+            <div class="card  w-[400px] bg-gray-300 rounded-xl gap-4">
+                <div class="content p-5 flex gap-3">
+                    <div class="img bg-gray-50 h-[52px] w-[52px] rounded-full"></div>
+                    <div class="info">
+                        <h1>Awlad Hossain</h1>
+                        <p>11.12.23</p>
+                    </div> 
+                    
+                </div>
+                <div class="pl-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, et.</div>
+                <div class="star h-[100px] w-[100px] flex pl-5 gap-3">
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                       
+                </div>
+            </div>
+        </div>
+        <div class="review-card container mx-auto">
+            <div class="card  w-[400px] bg-gray-300 rounded-xl gap-4">
+                <div class="content p-5 flex gap-3">
+                    <div class="img bg-gray-50 h-[52px] w-[52px] rounded-full"></div>
+                    <div class="info">
+                        <h1>Tasnim Farha</h1>
+                        <p>11.12.23</p>
+                    </div> 
+                    
+                </div>
+                <div class="pl-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, et.</div>
+                <div class="star h-[100px] w-[100px] flex pl-5 gap-3">
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                    <div>
+                        <img src="star.png" alt="">
+                    </div>
+                       
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    </section>
+    <!-- footer start -->
+    <section class="footer bg-gray-300  h-[454px] pt-[60px] space-y-8">
+        <div>
+            <div class="flex items-center justify-center">
+                <p class="text-3xl font-bold"><span class="text-red-400">e</span>Com</p>
+                <p class="h-[20px] w-[20px]"><img src="Red-arrow-icon-illustration-on-transparent-background-PNG.png" ></p>
+            </div>
+
+        </div>
+        <div class="flex justify-center">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br><span class="flex items-center justify-center">elit.sit rj ejfjrfrf jrfhrf</span> </p>
+        </div>
+        <div class="flex justify-center">
+            <ul class="hidden lg:block lg:inline-flex flex items-center gap-5 font-bold text-gray-700  ">
+                <li class="text-red-400">Home</li>
+                <li>Shop</li>
+                <li>Add_Products</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+        <div class="flex justify-center">
+            <ul class="flex items-center gap-3 ">
+                <li class="h-[20px] w-[20px]"><img  src="Facebook.jpg"></li>
+                <li class="h-[20px] w-[20px]"><img src="Twitter.jpg"></li>
+                <li class="h-[20px] w-[20px]"><img src="insta.png"></li>
+            </ul>
+        </div>
+
+    </section>
+</footer>
+</body>
+</html>
